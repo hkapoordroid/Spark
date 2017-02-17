@@ -19,3 +19,8 @@ Cheat Sheet
 5. sc.textFile (to read file as RDD)
 6. sc.saveAsTextFile (to write RDD to text file)
 7. sc.wholeTextFiles(directory)  (to reach each file as one element of the RDD and its a pair RDD where key is the file name)
+8. Pair RDDS commonly used functions
+   1. map
+   2. flatMap/flatMapValues
+   3. keyBy 
+9.
