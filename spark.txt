@@ -1,0 +1,21 @@
+Spark 
+---------------------------------------------
+
+
+Cheat Sheet
+====================================
+1. sc.parallelize (To create RDD from in memory data)
+2. sc.textFile (Allows creating RDD from simple text files)
+    1. sc.textFile(“myfile.txt”) (From Single File)
+    2. sc.textFile(“mydata/“) (All Files in directory)
+    3. sc.textFile(“mydata/*.log”) (All files matching wildcard)
+    4. sc.textFile(“myfile1.txt”, “myfile2.txt”) (multiple specified files)
+3. Absolute URI or Relative URI
+    1. file:/home/training/myfile.txt
+    2. hdfs://<name_node_host>/loudacre/myfile.txt
+4. Other file formats, check 
+    1. sc.hadoopFile and sc.saveAsHadoopFile
+    2. sc.newAPIhadoopFile and sc.saveAsNewAPIhadoopFile
+5. sc.textFile (to read file as RDD)
+6. sc.saveAsTextFile (to write RDD to text file)
+7. sc.wholeTextFiles(directory)  (to reach each file as one element of the RDD and its a pair RDD where key is the file name)
