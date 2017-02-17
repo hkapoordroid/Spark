@@ -23,4 +23,14 @@ Cheat Sheet
    1. map
    2. flatMap/flatMapValues
    3. keyBy 
-9.
+   4. countByKey
+   5. groupByKey 
+   6. sortByKey 
+   7. join 
+   8. keys
+   9. values
+   10. lookup 
+   11. leftOuterJoin, rightOuterJoin, fullOuterJoin
+   12. mapValues
+9. Mapper Functions - Examples: map, flatMap, filter, keyBy
+10 Reducer functions - Examples: reduceByKey, sortyByKey, mean
